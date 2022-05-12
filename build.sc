@@ -14,7 +14,8 @@ object chart extends ScalaJSModule {
 ) }
   def ivyDeps = Agg(
     ivy"com.raquo::laminar::0.14.2",
-    ivy"io.github.quafadas::dedav4s::0.6.0",
+    ivy"io.github.quafadas::dedav4s::0.8.0",
+    ivy"org.scala-js:scalajs-java-securerandom_sjs1_2.13:1.0.0",
   )
   private def public(dev: Boolean): Task[Map[String, String]] = {
     val js = if (dev) fastOpt else fullOpt

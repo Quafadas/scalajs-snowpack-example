@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "vega-embed" : "6.20.8"
+    "vega-embed" : "6.20.8",
+    "vega-lite" : "5.2.0",
+    "vega" : "5.22.0"
   },
   "devDependencies": {
     "snowpack": "3.8.8",
